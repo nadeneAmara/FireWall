@@ -1,0 +1,25 @@
+Great FireWall of Santa Cruz
+
+Compile with make, make all
+Clean up files with make clean
+
+To Run Program:
+
+Read in a file with I/O Redirection:
+
+ex: ./banhammer <file_name.txt
+
+User input:
+
+ex: ./banhammer
+Type input and use Ctrl D when finished.
+
+flags supported:
+
+-s stats	-b moveToFront off	-f bloom filter size
+-m moveToFront	-h size of hashTable
+
+This program will take a text file 
+as input and report any forbidden
+words used as well as any translations
+for old words.
